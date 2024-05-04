@@ -20,5 +20,5 @@ Os valores devem ser exibidos utilizando o formato **R$ xxxx.xx**
 
 ### Considerações
 Utilizei a importação da biblioteca "os", para permitir realizar a limpeza na tela entre cada movimentação de depósito, saque ou visualização do extrato.
-Após cada movimentação, sendo ela efetuada com sucesso ou apresentando algum erro, o usuário deve acionar a tecla "ENTER" para prosseguir até o menu novamente. Isso permite ao usuário verificar se sua movimentação ocorreu normalmente ou se houva algum erro.
+Após cada movimentação, sendo ela efetuada com sucesso ou apresentando algum erro, o usuário deve acionar a tecla "ENTER" para prosseguir até o menu novamente. Isso permite ao usuário verificar se sua movimentação ocorreu normalmente ou se houver algum erro.
 
