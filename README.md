@@ -1,4 +1,6 @@
 # Criando um Sistema Bancário com Python
+
+## Versão I
 Nessa primeira versão do desafio devemos implementar apenas três operações: depósito saque e extrato.
 
 ### Operação de depósito 
@@ -22,3 +24,23 @@ Os valores devem ser exibidos utilizando o formato **R$ xxxx.xx**
 Utilizei a importação da biblioteca "os", para permitir realizar a limpeza na tela entre cada movimentação de depósito, saque ou visualização do extrato.
 Após cada movimentação, sendo ela efetuada com sucesso ou apresentando algum erro, o usuário deve acionar a tecla "ENTER" para prosseguir até o menu novamente. Isso permite ao usuário verificar se sua movimentação ocorreu normalmente ou se houve algum erro.
 
+
+## Versão II
+Para a segunda versão, criei um novo arquivo para comparação com a primeira versão. 
+
+Nesse novo arquivo ainda temos as opções do Menu da versão I e a adição de novas opções de nível superior:
+
+    - Cadastrar Cliente
+    - Listar Clientes
+    - Excluir Cliente 
+    - Cadastrar Conta Corrente
+    - Listar Contas Correntes
+    - Excluir Conta Correte
+
+Foram criadas mais funcionalidades para melhorar a experiência e o aprendizado com funções em Python.
+
+
+Utilizando a modularização, implementei as funções no arquivo chamado "operacoes.py" e as configurações das variáveis com escopo global, foram realocadas para o arquivo "config.py".
+Para que os dados dos clientes não fossem apagados após o encerramento da aplicação, realizei a persistência dos dados em um arquivo de extensão "clientes_contas.json", sendo essa extensão de arquivo muito utilizada para o registro de informações na web.
+
+Tenho conciência que este arquivo não deve ser adicionado ao meu reposótirio por se tratar de dados sensíveis. Ao executar o programa, o arquivo será criado sem dados e você mesmo poderá criar dados fictícios para verificar as funcionalidades do programa.
