@@ -44,3 +44,8 @@ Utilizando a modularização, implementei as funções no arquivo chamado "opera
 Para que os dados dos clientes não fossem apagados após o encerramento da aplicação, realizei a persistência dos dados em um arquivo de extensão "clientes_contas.json", sendo essa extensão de arquivo muito utilizada para o registro de informações na web.
 
 Tenho conciência que este arquivo não deve ser adicionado ao meu reposótirio por se tratar de dados sensíveis. Ao executar o programa, o arquivo será criado sem dados e você mesmo poderá criar dados fictícios para verificar as funcionalidades do programa.
+
+## Versão III
+Para o segundo desafio, a missão é atualizar a implementação do sistema bancário, para armazenar os dados de clientes e contas bancárias em objetos ao invés de dicionários.
+Após concluir a modelagem das classes e a criação dos métodos, atualizei os métodos que tratam as opções do menu, para funcionarem com as classes modeladas.
+
